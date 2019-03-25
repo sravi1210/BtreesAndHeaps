@@ -44,25 +44,65 @@ namespace Videos_Tutorials {
 	private: System::Windows::Forms::Button^  Btrees_delete;
 	private: System::Windows::Forms::Panel^  Btrees_pan_insert;
 
-	private: System::Windows::Forms::Button^  PlayVideo_insert;
 
-	private: AxWMPLib::AxWindowsMediaPlayer^  Player_insert;
-	private: System::Windows::Forms::Button^  StopVideo_insert;
+
+
+
 	private: System::Windows::Forms::Button^  Btrees_intro;
 	private: System::Windows::Forms::Panel^  Btrees_pan_intro;
 	private: System::Windows::Forms::Panel^  Btrees_pan_delete;
-	private: System::Windows::Forms::Button^  StopVideo_delete;
 
 
-	private: System::Windows::Forms::Button^  PlayVideo_delete;
 
-	private: AxWMPLib::AxWindowsMediaPlayer^  Player_delete;
+
+
+
 	private: System::Windows::Forms::Panel^  Btrees_pan_search;
-	private: System::Windows::Forms::Button^  StopVideo_search;
+	private: System::Windows::Forms::Panel^  Btree_insert_animation;
+	private: System::Windows::Forms::Label^  BT1;
+	private: Microsoft::VisualBasic::PowerPacks::ShapeContainer^  shapeContainer1;
+	private: Microsoft::VisualBasic::PowerPacks::LineShape^  LS2;
 
-	private: System::Windows::Forms::Button^  PlayVideo_search;
+	private: Microsoft::VisualBasic::PowerPacks::LineShape^  LS1;
 
-	private: AxWMPLib::AxWindowsMediaPlayer^  Player_search;
+	private: System::Windows::Forms::Label^  BT3;
+
+	private: System::Windows::Forms::Label^  BT2;
+	private: Microsoft::VisualBasic::PowerPacks::LineShape^  LS6;
+
+
+	private: Microsoft::VisualBasic::PowerPacks::LineShape^  LS5;
+
+	private: System::Windows::Forms::Label^  BT4;
+	private: System::Windows::Forms::Label^  BT6;
+	private: System::Windows::Forms::Label^  BT7;
+	private: Microsoft::VisualBasic::PowerPacks::LineShape^  LS3;
+
+
+
+
+
+
+	private: System::Windows::Forms::Button^  InsertBT;
+	private: System::Windows::Forms::Label^  BT5;
+	private: Microsoft::VisualBasic::PowerPacks::LineShape^  LS4;
+
+
+
+	private: System::Windows::Forms::Label^  label6;
+	private: System::Windows::Forms::TextBox^  BTinsert_value;
+	private: System::Windows::Forms::Timer^  BTinsert_timer;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -93,7 +133,7 @@ namespace Videos_Tutorials {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Form1::typeid));
+			this->components = (gcnew System::ComponentModel::Container());
 			this->BTrees = (gcnew System::Windows::Forms::Button());
 			this->Btrees_pan = (gcnew System::Windows::Forms::Panel());
 			this->Btrees_intro = (gcnew System::Windows::Forms::Button());
@@ -101,26 +141,32 @@ namespace Videos_Tutorials {
 			this->Btrees_delete = (gcnew System::Windows::Forms::Button());
 			this->Btrees_insert = (gcnew System::Windows::Forms::Button());
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->Btrees_pan_delete = (gcnew System::Windows::Forms::Panel());
-			this->StopVideo_delete = (gcnew System::Windows::Forms::Button());
-			this->PlayVideo_delete = (gcnew System::Windows::Forms::Button());
-			this->Player_delete = (gcnew AxWMPLib::AxWindowsMediaPlayer());
 			this->Btrees_pan_insert = (gcnew System::Windows::Forms::Panel());
-			this->StopVideo_insert = (gcnew System::Windows::Forms::Button());
-			this->PlayVideo_insert = (gcnew System::Windows::Forms::Button());
-			this->Player_insert = (gcnew AxWMPLib::AxWindowsMediaPlayer());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->BTinsert_value = (gcnew System::Windows::Forms::TextBox());
+			this->InsertBT = (gcnew System::Windows::Forms::Button());
+			this->Btree_insert_animation = (gcnew System::Windows::Forms::Panel());
+			this->BT5 = (gcnew System::Windows::Forms::Label());
+			this->BT4 = (gcnew System::Windows::Forms::Label());
+			this->BT6 = (gcnew System::Windows::Forms::Label());
+			this->BT7 = (gcnew System::Windows::Forms::Label());
+			this->BT3 = (gcnew System::Windows::Forms::Label());
+			this->BT2 = (gcnew System::Windows::Forms::Label());
+			this->BT1 = (gcnew System::Windows::Forms::Label());
+			this->shapeContainer1 = (gcnew Microsoft::VisualBasic::PowerPacks::ShapeContainer());
+			this->LS4 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->LS3 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->LS5 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->LS6 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->LS1 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->LS2 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
 			this->Btrees_pan_search = (gcnew System::Windows::Forms::Panel());
-			this->StopVideo_search = (gcnew System::Windows::Forms::Button());
-			this->PlayVideo_search = (gcnew System::Windows::Forms::Button());
-			this->Player_search = (gcnew AxWMPLib::AxWindowsMediaPlayer());
 			this->Btrees_pan_intro = (gcnew System::Windows::Forms::Panel());
+			this->Btrees_pan_delete = (gcnew System::Windows::Forms::Panel());
+			this->BTinsert_timer = (gcnew System::Windows::Forms::Timer(this->components));
 			this->Btrees_pan->SuspendLayout();
-			this->Btrees_pan_delete->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->Player_delete))->BeginInit();
 			this->Btrees_pan_insert->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->Player_insert))->BeginInit();
-			this->Btrees_pan_search->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->Player_search))->BeginInit();
+			this->Btree_insert_animation->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// BTrees
@@ -142,10 +188,10 @@ namespace Videos_Tutorials {
 			this->Btrees_pan->Controls->Add(this->Btrees_delete);
 			this->Btrees_pan->Controls->Add(this->Btrees_insert);
 			this->Btrees_pan->Controls->Add(this->label1);
-			this->Btrees_pan->Controls->Add(this->Btrees_pan_delete);
 			this->Btrees_pan->Controls->Add(this->Btrees_pan_insert);
 			this->Btrees_pan->Controls->Add(this->Btrees_pan_search);
 			this->Btrees_pan->Controls->Add(this->Btrees_pan_intro);
+			this->Btrees_pan->Controls->Add(this->Btrees_pan_delete);
 			this->Btrees_pan->Location = System::Drawing::Point(1, 1);
 			this->Btrees_pan->Name = L"Btrees_pan";
 			this->Btrees_pan->Size = System::Drawing::Size(1170, 705);
@@ -211,143 +257,225 @@ namespace Videos_Tutorials {
 			this->label1->Text = L"Binary Search Trees Operations";
 			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
-			// Btrees_pan_delete
-			// 
-			this->Btrees_pan_delete->Controls->Add(this->StopVideo_delete);
-			this->Btrees_pan_delete->Controls->Add(this->PlayVideo_delete);
-			this->Btrees_pan_delete->Controls->Add(this->Player_delete);
-			this->Btrees_pan_delete->Location = System::Drawing::Point(165, 88);
-			this->Btrees_pan_delete->Name = L"Btrees_pan_delete";
-			this->Btrees_pan_delete->Size = System::Drawing::Size(999, 608);
-			this->Btrees_pan_delete->TabIndex = 7;
-			this->Btrees_pan_delete->Visible = false;
-			// 
-			// StopVideo_delete
-			// 
-			this->StopVideo_delete->Font = (gcnew System::Drawing::Font(L"Century Gothic", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
-				static_cast<System::Byte>(0)));
-			this->StopVideo_delete->Location = System::Drawing::Point(833, 440);
-			this->StopVideo_delete->Name = L"StopVideo_delete";
-			this->StopVideo_delete->Size = System::Drawing::Size(133, 57);
-			this->StopVideo_delete->TabIndex = 2;
-			this->StopVideo_delete->Text = L"Stop";
-			this->StopVideo_delete->UseVisualStyleBackColor = true;
-			this->StopVideo_delete->Click += gcnew System::EventHandler(this, &Form1::StopVideo_delete_Click);
-			// 
-			// PlayVideo_delete
-			// 
-			this->PlayVideo_delete->Font = (gcnew System::Drawing::Font(L"Century Gothic", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
-				static_cast<System::Byte>(0)));
-			this->PlayVideo_delete->Location = System::Drawing::Point(833, 278);
-			this->PlayVideo_delete->Name = L"PlayVideo_delete";
-			this->PlayVideo_delete->Size = System::Drawing::Size(133, 57);
-			this->PlayVideo_delete->TabIndex = 1;
-			this->PlayVideo_delete->Text = L"Play";
-			this->PlayVideo_delete->UseVisualStyleBackColor = true;
-			this->PlayVideo_delete->Click += gcnew System::EventHandler(this, &Form1::PlayVideo_delete_Click);
-			// 
-			// Player_delete
-			// 
-			this->Player_delete->Enabled = true;
-			this->Player_delete->Location = System::Drawing::Point(20, 183);
-			this->Player_delete->MaximumSize = System::Drawing::Size(787, 414);
-			this->Player_delete->MinimumSize = System::Drawing::Size(787, 414);
-			this->Player_delete->Name = L"Player_delete";
-			this->Player_delete->OcxState = (cli::safe_cast<System::Windows::Forms::AxHost::State^  >(resources->GetObject(L"Player_delete.OcxState")));
-			this->Player_delete->Size = System::Drawing::Size(787, 414);
-			this->Player_delete->TabIndex = 0;
-			// 
 			// Btrees_pan_insert
 			// 
-			this->Btrees_pan_insert->Controls->Add(this->StopVideo_insert);
-			this->Btrees_pan_insert->Controls->Add(this->PlayVideo_insert);
-			this->Btrees_pan_insert->Controls->Add(this->Player_insert);
+			this->Btrees_pan_insert->Controls->Add(this->label6);
+			this->Btrees_pan_insert->Controls->Add(this->BTinsert_value);
+			this->Btrees_pan_insert->Controls->Add(this->InsertBT);
+			this->Btrees_pan_insert->Controls->Add(this->Btree_insert_animation);
 			this->Btrees_pan_insert->Location = System::Drawing::Point(168, 89);
 			this->Btrees_pan_insert->Name = L"Btrees_pan_insert";
 			this->Btrees_pan_insert->Size = System::Drawing::Size(999, 608);
 			this->Btrees_pan_insert->TabIndex = 4;
 			this->Btrees_pan_insert->Visible = false;
 			// 
-			// StopVideo_insert
+			// label6
 			// 
-			this->StopVideo_insert->Font = (gcnew System::Drawing::Font(L"Century Gothic", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->label6->AutoSize = true;
+			this->label6->Location = System::Drawing::Point(770, 202);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(83, 17);
+			this->label6->TabIndex = 3;
+			this->label6->Text = L"Insert Value";
+			// 
+			// BTinsert_value
+			// 
+			this->BTinsert_value->Location = System::Drawing::Point(864, 197);
+			this->BTinsert_value->Name = L"BTinsert_value";
+			this->BTinsert_value->Size = System::Drawing::Size(98, 22);
+			this->BTinsert_value->TabIndex = 2;
+			// 
+			// InsertBT
+			// 
+			this->InsertBT->Font = (gcnew System::Drawing::Font(L"Century Gothic", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(0)));
-			this->StopVideo_insert->Location = System::Drawing::Point(833, 440);
-			this->StopVideo_insert->Name = L"StopVideo_insert";
-			this->StopVideo_insert->Size = System::Drawing::Size(133, 57);
-			this->StopVideo_insert->TabIndex = 2;
-			this->StopVideo_insert->Text = L"Stop";
-			this->StopVideo_insert->UseVisualStyleBackColor = true;
-			this->StopVideo_insert->Click += gcnew System::EventHandler(this, &Form1::StopVideo_insert_Click);
+			this->InsertBT->Location = System::Drawing::Point(773, 241);
+			this->InsertBT->Name = L"InsertBT";
+			this->InsertBT->Size = System::Drawing::Size(189, 55);
+			this->InsertBT->TabIndex = 1;
+			this->InsertBT->Text = L"INSERT";
+			this->InsertBT->UseVisualStyleBackColor = true;
+			this->InsertBT->Click += gcnew System::EventHandler(this, &Form1::InsertBT_Click);
 			// 
-			// PlayVideo_insert
+			// Btree_insert_animation
 			// 
-			this->PlayVideo_insert->Font = (gcnew System::Drawing::Font(L"Century Gothic", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->Btree_insert_animation->BackColor = System::Drawing::SystemColors::HighlightText;
+			this->Btree_insert_animation->Controls->Add(this->BT5);
+			this->Btree_insert_animation->Controls->Add(this->BT4);
+			this->Btree_insert_animation->Controls->Add(this->BT6);
+			this->Btree_insert_animation->Controls->Add(this->BT7);
+			this->Btree_insert_animation->Controls->Add(this->BT3);
+			this->Btree_insert_animation->Controls->Add(this->BT2);
+			this->Btree_insert_animation->Controls->Add(this->BT1);
+			this->Btree_insert_animation->Controls->Add(this->shapeContainer1);
+			this->Btree_insert_animation->Location = System::Drawing::Point(33, 152);
+			this->Btree_insert_animation->Name = L"Btree_insert_animation";
+			this->Btree_insert_animation->Size = System::Drawing::Size(711, 442);
+			this->Btree_insert_animation->TabIndex = 4;
+			// 
+			// BT5
+			// 
+			this->BT5->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->BT5->Font = (gcnew System::Drawing::Font(L"Century Gothic", 28.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(0)));
-			this->PlayVideo_insert->Location = System::Drawing::Point(833, 278);
-			this->PlayVideo_insert->Name = L"PlayVideo_insert";
-			this->PlayVideo_insert->Size = System::Drawing::Size(133, 57);
-			this->PlayVideo_insert->TabIndex = 1;
-			this->PlayVideo_insert->Text = L"Play";
-			this->PlayVideo_insert->UseVisualStyleBackColor = true;
-			this->PlayVideo_insert->Click += gcnew System::EventHandler(this, &Form1::PlayVideo_insert_Click);
+			this->BT5->Location = System::Drawing::Point(227, 283);
+			this->BT5->Name = L"BT5";
+			this->BT5->Size = System::Drawing::Size(108, 79);
+			this->BT5->TabIndex = 7;
+			this->BT5->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->BT5->Visible = false;
 			// 
-			// Player_insert
+			// BT4
 			// 
-			this->Player_insert->Enabled = true;
-			this->Player_insert->Location = System::Drawing::Point(20, 183);
-			this->Player_insert->MaximumSize = System::Drawing::Size(787, 414);
-			this->Player_insert->MinimumSize = System::Drawing::Size(787, 414);
-			this->Player_insert->Name = L"Player_insert";
-			this->Player_insert->OcxState = (cli::safe_cast<System::Windows::Forms::AxHost::State^  >(resources->GetObject(L"Player_insert.OcxState")));
-			this->Player_insert->Size = System::Drawing::Size(787, 414);
-			this->Player_insert->TabIndex = 0;
+			this->BT4->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->BT4->Font = (gcnew System::Drawing::Font(L"Century Gothic", 28.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->BT4->Location = System::Drawing::Point(63, 283);
+			this->BT4->Name = L"BT4";
+			this->BT4->Size = System::Drawing::Size(108, 79);
+			this->BT4->TabIndex = 6;
+			this->BT4->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->BT4->Visible = false;
+			// 
+			// BT6
+			// 
+			this->BT6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->BT6->Font = (gcnew System::Drawing::Font(L"Century Gothic", 28.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->BT6->Location = System::Drawing::Point(341, 283);
+			this->BT6->Name = L"BT6";
+			this->BT6->Size = System::Drawing::Size(108, 79);
+			this->BT6->TabIndex = 5;
+			this->BT6->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->BT6->Visible = false;
+			// 
+			// BT7
+			// 
+			this->BT7->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->BT7->Font = (gcnew System::Drawing::Font(L"Century Gothic", 28.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->BT7->Location = System::Drawing::Point(496, 283);
+			this->BT7->Name = L"BT7";
+			this->BT7->Size = System::Drawing::Size(108, 79);
+			this->BT7->TabIndex = 4;
+			this->BT7->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->BT7->Visible = false;
+			// 
+			// BT3
+			// 
+			this->BT3->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->BT3->Font = (gcnew System::Drawing::Font(L"Century Gothic", 28.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->BT3->Location = System::Drawing::Point(412, 155);
+			this->BT3->Name = L"BT3";
+			this->BT3->Size = System::Drawing::Size(108, 79);
+			this->BT3->TabIndex = 3;
+			this->BT3->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->BT3->Visible = false;
+			// 
+			// BT2
+			// 
+			this->BT2->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->BT2->Font = (gcnew System::Drawing::Font(L"Century Gothic", 28.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->BT2->Location = System::Drawing::Point(147, 155);
+			this->BT2->Name = L"BT2";
+			this->BT2->Size = System::Drawing::Size(108, 79);
+			this->BT2->TabIndex = 2;
+			this->BT2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->BT2->Visible = false;
+			// 
+			// BT1
+			// 
+			this->BT1->BackColor = System::Drawing::SystemColors::HighlightText;
+			this->BT1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->BT1->Font = (gcnew System::Drawing::Font(L"Century Gothic", 28.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->BT1->Location = System::Drawing::Point(279, 14);
+			this->BT1->Name = L"BT1";
+			this->BT1->Size = System::Drawing::Size(108, 79);
+			this->BT1->TabIndex = 0;
+			this->BT1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->BT1->Visible = false;
+			// 
+			// shapeContainer1
+			// 
+			this->shapeContainer1->Location = System::Drawing::Point(0, 0);
+			this->shapeContainer1->Margin = System::Windows::Forms::Padding(0);
+			this->shapeContainer1->Name = L"shapeContainer1";
+			this->shapeContainer1->Shapes->AddRange(gcnew cli::array< Microsoft::VisualBasic::PowerPacks::Shape^  >(6) {this->LS4, this->LS3, 
+				this->LS5, this->LS6, this->LS1, this->LS2});
+			this->shapeContainer1->Size = System::Drawing::Size(711, 442);
+			this->shapeContainer1->TabIndex = 1;
+			this->shapeContainer1->TabStop = false;
+			// 
+			// LS4
+			// 
+			this->LS4->BorderWidth = 5;
+			this->LS4->Name = L"LS4";
+			this->LS4->Visible = false;
+			this->LS4->X1 = 215;
+			this->LS4->X2 = 275;
+			this->LS4->Y1 = 228;
+			this->LS4->Y2 = 284;
+			// 
+			// LS3
+			// 
+			this->LS3->BorderWidth = 5;
+			this->LS3->Name = L"LS3";
+			this->LS3->Visible = false;
+			this->LS3->X1 = 190;
+			this->LS3->X2 = 117;
+			this->LS3->Y1 = 208;
+			this->LS3->Y2 = 282;
+			// 
+			// LS5
+			// 
+			this->LS5->BorderWidth = 5;
+			this->LS5->Name = L"LS5";
+			this->LS5->Visible = false;
+			this->LS5->X1 = 457;
+			this->LS5->X2 = 391;
+			this->LS5->Y1 = 221;
+			this->LS5->Y2 = 287;
+			// 
+			// LS6
+			// 
+			this->LS6->BorderWidth = 5;
+			this->LS6->Name = L"LS6";
+			this->LS6->Visible = false;
+			this->LS6->X1 = 470;
+			this->LS6->X2 = 547;
+			this->LS6->Y1 = 218;
+			this->LS6->Y2 = 292;
+			// 
+			// LS1
+			// 
+			this->LS1->BorderWidth = 5;
+			this->LS1->Name = L"LS1";
+			this->LS1->Visible = false;
+			this->LS1->X1 = 206;
+			this->LS1->X2 = 282;
+			this->LS1->Y1 = 160;
+			this->LS1->Y2 = 89;
+			// 
+			// LS2
+			// 
+			this->LS2->BorderWidth = 5;
+			this->LS2->Name = L"LS2";
+			this->LS2->Visible = false;
+			this->LS2->X1 = 379;
+			this->LS2->X2 = 458;
+			this->LS2->Y1 = 84;
+			this->LS2->Y2 = 158;
 			// 
 			// Btrees_pan_search
 			// 
-			this->Btrees_pan_search->Controls->Add(this->StopVideo_search);
-			this->Btrees_pan_search->Controls->Add(this->PlayVideo_search);
-			this->Btrees_pan_search->Controls->Add(this->Player_search);
 			this->Btrees_pan_search->Location = System::Drawing::Point(166, 86);
 			this->Btrees_pan_search->Name = L"Btrees_pan_search";
 			this->Btrees_pan_search->Size = System::Drawing::Size(999, 608);
 			this->Btrees_pan_search->TabIndex = 8;
 			this->Btrees_pan_search->Visible = false;
-			// 
-			// StopVideo_search
-			// 
-			this->StopVideo_search->Font = (gcnew System::Drawing::Font(L"Century Gothic", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
-				static_cast<System::Byte>(0)));
-			this->StopVideo_search->Location = System::Drawing::Point(833, 440);
-			this->StopVideo_search->Name = L"StopVideo_search";
-			this->StopVideo_search->Size = System::Drawing::Size(133, 57);
-			this->StopVideo_search->TabIndex = 2;
-			this->StopVideo_search->Text = L"Stop";
-			this->StopVideo_search->UseVisualStyleBackColor = true;
-			this->StopVideo_search->Click += gcnew System::EventHandler(this, &Form1::StopVideo_search_Click);
-			// 
-			// PlayVideo_search
-			// 
-			this->PlayVideo_search->Font = (gcnew System::Drawing::Font(L"Century Gothic", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
-				static_cast<System::Byte>(0)));
-			this->PlayVideo_search->Location = System::Drawing::Point(833, 278);
-			this->PlayVideo_search->Name = L"PlayVideo_search";
-			this->PlayVideo_search->Size = System::Drawing::Size(133, 57);
-			this->PlayVideo_search->TabIndex = 1;
-			this->PlayVideo_search->Text = L"Play";
-			this->PlayVideo_search->UseVisualStyleBackColor = true;
-			this->PlayVideo_search->Click += gcnew System::EventHandler(this, &Form1::PlayVideo_search_Click);
-			// 
-			// Player_search
-			// 
-			this->Player_search->Enabled = true;
-			this->Player_search->Location = System::Drawing::Point(20, 183);
-			this->Player_search->MaximumSize = System::Drawing::Size(787, 414);
-			this->Player_search->MinimumSize = System::Drawing::Size(787, 414);
-			this->Player_search->Name = L"Player_search";
-			this->Player_search->OcxState = (cli::safe_cast<System::Windows::Forms::AxHost::State^  >(resources->GetObject(L"Player_search.OcxState")));
-			this->Player_search->Size = System::Drawing::Size(787, 414);
-			this->Player_search->TabIndex = 0;
 			// 
 			// Btrees_pan_intro
 			// 
@@ -356,6 +484,19 @@ namespace Videos_Tutorials {
 			this->Btrees_pan_intro->Size = System::Drawing::Size(996, 608);
 			this->Btrees_pan_intro->TabIndex = 6;
 			this->Btrees_pan_intro->Visible = false;
+			// 
+			// Btrees_pan_delete
+			// 
+			this->Btrees_pan_delete->Location = System::Drawing::Point(165, 88);
+			this->Btrees_pan_delete->Name = L"Btrees_pan_delete";
+			this->Btrees_pan_delete->Size = System::Drawing::Size(999, 608);
+			this->Btrees_pan_delete->TabIndex = 7;
+			this->Btrees_pan_delete->Visible = false;
+			// 
+			// BTinsert_timer
+			// 
+			this->BTinsert_timer->Interval = 1;
+			this->BTinsert_timer->Tick += gcnew System::EventHandler(this, &Form1::BTinsert_timer_Tick);
 			// 
 			// Form1
 			// 
@@ -367,12 +508,9 @@ namespace Videos_Tutorials {
 			this->Name = L"Form1";
 			this->Text = L"Form1";
 			this->Btrees_pan->ResumeLayout(false);
-			this->Btrees_pan_delete->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->Player_delete))->EndInit();
 			this->Btrees_pan_insert->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->Player_insert))->EndInit();
-			this->Btrees_pan_search->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->Player_search))->EndInit();
+			this->Btrees_pan_insert->PerformLayout();
+			this->Btree_insert_animation->ResumeLayout(false);
 			this->ResumeLayout(false);
 
 		}
@@ -399,26 +537,122 @@ private: System::Void Btrees_search_Click(System::Object^  sender, System::Event
 			 Btrees_pan_search->Visible = true;
 			 Btrees_pan_search->BringToFront();
 		 }
-private: System::Void PlayVideo_insert_Click(System::Object^  sender, System::EventArgs^  e) {
-			 this->Player_insert->URL = "\Videos\\BtreeInsert.mp4";
-			 this->Player_insert->Ctlcontrols->play();
+private: System::Void InsertBT_Click(System::Object^  sender, System::EventArgs^  e) {
+			 if(this->BTinsert_value->Text == ""){
+				MessageBox::Show("Please Enter Value In The TextBox");
+			 }
+			 else if(int::Parse(this->BTinsert_value->Text)>99 || int::Parse(this->BTinsert_value->Text)<-99){
+				this->BTinsert_value->Text = "";
+				MessageBox::Show("Please Enter Value Between 99 and -99");
+			 }
+			 else{
+				 this->BTinsert_value->Enabled = false;
+				 this->InsertBT->Enabled = false;
+				 if(this->BT1->Visible == false){
+					this->BT1->Text = this->BTinsert_value->Text;
+					this->BT1->Visible = true;
+					this->BTinsert_value->Text = "";
+					this->BTinsert_value->Enabled = true;
+					this->InsertBT->Enabled = true;
+					return ;
+				 }
+				 if(this->BT2->Visible == false && this->BT1->Visible == true && int::Parse(this->BTinsert_value->Text)<=int::Parse(this->BT1->Text) ){
+					BTinsert_timer->Enabled = true;
+				 }
+				 else if(this->BT3->Visible == false && this->BT1->Visible == true && int::Parse(this->BTinsert_value->Text)>int::Parse(this->BT1->Text)){
+					BTinsert_timer->Enabled = true;
+				 }
+				 else if(this->BT4->Visible == false && this->BT1->Visible == true && this->BT2->Visible == true && int::Parse(this->BTinsert_value->Text)<=int::Parse(this->BT1->Text) && int::Parse(this->BTinsert_value->Text)<=int::Parse(this->BT2->Text)){
+					BTinsert_timer->Enabled = true;
+				 }
+				 else if(this->BT5->Visible == false && this->BT1->Visible == true && this->BT2->Visible == true && int::Parse(this->BTinsert_value->Text)<=int::Parse(this->BT1->Text) && int::Parse(this->BTinsert_value->Text)>int::Parse(this->BT2->Text)){
+					BTinsert_timer->Enabled = true;
+				 }
+				 else if(this->BT6->Visible == false && this->BT1->Visible == true && this->BT3->Visible == true && int::Parse(this->BTinsert_value->Text)>int::Parse(this->BT1->Text) && int::Parse(this->BTinsert_value->Text)<=int::Parse(this->BT3->Text)){
+					BTinsert_timer->Enabled = true;
+				 }
+				 else if(this->BT7->Visible == false && this->BT1->Visible == true && this->BT3->Visible == true && int::Parse(this->BTinsert_value->Text)>int::Parse(this->BT1->Text) && int::Parse(this->BTinsert_value->Text)>int::Parse(this->BT3->Text)){
+						BTinsert_timer->Enabled = true;
+				 }
+				 else{
+					this->BTinsert_value->Text = "";
+					this->BTinsert_value->Enabled = true;
+					this->InsertBT->Enabled = true;
+					MessageBox::Show("You Have Reached A Maximum Height Of The Binary Search Tree");
+				 }
+			 }
 		 }
-private: System::Void StopVideo_insert_Click(System::Object^  sender, System::EventArgs^  e) {
-			 this->Player_insert->Ctlcontrols->stop();
-		 }
-private: System::Void PlayVideo_search_Click(System::Object^  sender, System::EventArgs^  e) {
-			 this->Player_search->URL = "\Videos\\BtreeInsert.mp4";
-			 this->Player_search->Ctlcontrols->play();
-		 }
-private: System::Void StopVideo_search_Click(System::Object^  sender, System::EventArgs^  e) {
-			 this->Player_search->Ctlcontrols->stop();
-		 }
-private: System::Void PlayVideo_delete_Click(System::Object^  sender, System::EventArgs^  e) {
-			 this->Player_delete->URL = "\Videos\\BtreeInsert.mp4";
-			 this->Player_delete->Ctlcontrols->play();
-		 }
-private: System::Void StopVideo_delete_Click(System::Object^  sender, System::EventArgs^  e) {
-			 this->Player_delete->Ctlcontrols->stop();
+private: System::Void BTinsert_timer_Tick(System::Object^  sender, System::EventArgs^  e) {
+			 int x = int::Parse(this->BTinsert_value->Text);
+			 if(this->BT4->Visible==false && this->BT1->BackColor == System::Drawing::SystemColors::MenuHighlight && this->BT2->BackColor == System::Drawing::SystemColors::MenuHighlight && x<=int::Parse(this->BT1->Text) && x<=int::Parse(this->BT2->Text)){
+				this->BT4->BackColor = System::Drawing::SystemColors::MenuHighlight;
+				this->BT4->Text = this->BTinsert_value->Text;
+				this->LS3->Visible = true;
+				this->BT4->Visible = true;
+				this->BTinsert_value->Text = "";
+				this->BTinsert_value->Enabled = true;
+				this->InsertBT->Enabled = true;
+				BTinsert_timer->Enabled = false;
+			 }
+			 else if(this->BT5->Visible==false && this->BT1->BackColor == System::Drawing::SystemColors::MenuHighlight && this->BT2->BackColor == System::Drawing::SystemColors::MenuHighlight && x<=int::Parse(this->BT1->Text) && x>int::Parse(this->BT2->Text)){
+				this->BT5->BackColor = System::Drawing::SystemColors::MenuHighlight;
+				this->BT5->Text = this->BTinsert_value->Text;
+				this->LS4->Visible = true;
+				this->BT5->Visible = true;
+				this->BTinsert_value->Text = "";
+				this->BTinsert_value->Enabled = true;
+				this->InsertBT->Enabled = true;
+				BTinsert_timer->Enabled = false;
+			 }
+			 else if(this->BT6->Visible==false && this->BT1->BackColor == System::Drawing::SystemColors::MenuHighlight && this->BT3->BackColor == System::Drawing::SystemColors::MenuHighlight && x>int::Parse(this->BT1->Text) && x<=int::Parse(this->BT3->Text)){
+				this->BT6->BackColor = System::Drawing::SystemColors::MenuHighlight;
+				this->BT6->Text = this->BTinsert_value->Text;
+				this->LS5->Visible = true;
+				this->BT6->Visible = true;
+				this->BTinsert_value->Text = "";
+				this->BTinsert_value->Enabled = true;
+				this->InsertBT->Enabled = true;
+				BTinsert_timer->Enabled = false;
+			 }
+			 else if(this->BT7->Visible==false && this->BT1->BackColor == System::Drawing::SystemColors::MenuHighlight && this->BT3->BackColor == System::Drawing::SystemColors::MenuHighlight && x>int::Parse(this->BT1->Text) && x>int::Parse(this->BT3->Text)){
+				this->BT7->BackColor = System::Drawing::SystemColors::MenuHighlight;
+				this->BT7->Text = this->BTinsert_value->Text;
+				this->LS6->Visible = true;
+				this->BT7->Visible = true;
+				this->BTinsert_value->Text = "";
+				this->BTinsert_value->Enabled = true;
+				this->InsertBT->Enabled = true;
+				BTinsert_timer->Enabled = false;
+			 }
+			 else if(this->BT1->Visible==true && this->BT1->BackColor == System::Drawing::SystemColors::MenuHighlight && this->BT3->Visible==false && x> int::Parse(this->BT1->Text)){
+				this->BT3->BackColor = System::Drawing::SystemColors::MenuHighlight;
+				this->BT3->Text = this->BTinsert_value->Text;
+				this->LS2->Visible = true;
+				this->BT3->Visible = true;
+				this->BTinsert_value->Text = "";
+				this->BTinsert_value->Enabled = true;
+				this->InsertBT->Enabled = true;
+				BTinsert_timer->Enabled = false;
+			 }
+			 else if(this->BT1->Visible==true && this->BT1->BackColor == System::Drawing::SystemColors::MenuHighlight && this->BT2->Visible==false && x<= int::Parse(this->BT1->Text)){
+				this->BT2->BackColor = System::Drawing::SystemColors::MenuHighlight;
+				this->BT2->Text = this->BTinsert_value->Text;
+				this->LS1->Visible = true;
+				this->BT2->Visible = true;
+				this->BTinsert_value->Text = "";
+				this->BTinsert_value->Enabled = true;
+				this->InsertBT->Enabled = true;
+				BTinsert_timer->Enabled = false;
+			 }
+			 else if(BT2->Visible==true && this->BT2->BackColor != System::Drawing::SystemColors::MenuHighlight && x<= int::Parse(this->BT1->Text)){
+				 this->BT2->BackColor = System::Drawing::SystemColors::MenuHighlight;
+			 }
+			 else if(BT3->Visible==true && this->BT3->BackColor != System::Drawing::SystemColors::MenuHighlight && x> int::Parse(this->BT1->Text)){
+				this->BT3->BackColor = System::Drawing::SystemColors::MenuHighlight;
+			 }
+			 else if(this->BT1->Visible == true && this->BT1->BackColor != System::Drawing::SystemColors::MenuHighlight){
+				this->BT1->BackColor = System::Drawing::SystemColors::MenuHighlight;
+			 }
 		 }
 };
 }
