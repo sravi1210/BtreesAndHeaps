@@ -1,40 +1,429 @@
-﻿Build started 27-Mar-19 2:22:22 AM.
-     1>Project "C:\Users\Lenovo\Documents\Visual C++ Videos Project\Videos_Tutorials\trees\trees.vcxproj" on node 2 (build target(s)).
+﻿Build started 3/27/2019 6:58:14 PM.
+     1>Project "C:\Users\ajais\Desktop\vb_projects\BtreesAndHeaps\trees\trees.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\trees.unsuccessfulbuild" because "AlwaysCreate" was specified.
        GenerateTargetFrameworkMonikerAttribute:
        Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
        ClCompile:
          All outputs are up-to-date.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\trees.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt BST_deletion.cpp trees.cpp /clr:nostdlib 
-         BST_deletion.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\trees.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt BST_intro.cpp BST_search.cpp trees.cpp /clr:nostdlib 
+         BST_intro.cpp
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C2039: 'ShapeContainer' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C2039: 'ShapeContainer' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C2061: syntax error : identifier 'ShapeContainer'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C2039: 'ovalShape7' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C2039: 'ovalShape6' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C2039: 'ovalShape5' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C2039: 'ovalShape4' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C2039: 'ovalShape3' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C2039: 'ovalShape2' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C2039: 'ovalShape1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(263): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(355): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(355): error C2227: left of '->Location' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(356): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(356): error C2227: left of '->Margin' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(357): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(357): error C2227: left of '->Name' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2227: left of '->Shapes' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2227: left of '->AddRange' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2039: 'Shape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2065: 'Shape' : undeclared identifier
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2059: syntax error : '>'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape6' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape5' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape4' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape3' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape2' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2143: syntax error : missing ',' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2059: syntax error : ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(375): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(410): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(415): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(420): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(433): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(438): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(461): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(462): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(484): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(485): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(507): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(508): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(529): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(531): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(533): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(536): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(538): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(541): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(543): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(546): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(548): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(548): fatal error C1003: error count exceeds 100; stopping compilation
+         BST_search.cpp
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C2039: 'ShapeContainer' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C2039: 'ShapeContainer' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C2061: syntax error : identifier 'ShapeContainer'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C2039: 'ovalShape7' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C2039: 'ovalShape6' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C2039: 'ovalShape5' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C2039: 'ovalShape4' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C2039: 'ovalShape3' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C2039: 'ovalShape2' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C2039: 'ovalShape1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(263): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(355): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(355): error C2227: left of '->Location' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(356): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(356): error C2227: left of '->Margin' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(357): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(357): error C2227: left of '->Name' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2227: left of '->Shapes' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2227: left of '->AddRange' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2039: 'Shape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2065: 'Shape' : undeclared identifier
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2059: syntax error : '>'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape6' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape5' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape4' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape3' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape2' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2143: syntax error : missing ',' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2059: syntax error : ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(375): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(410): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(415): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(420): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(433): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(438): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(461): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(462): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(484): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(485): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(507): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(508): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(529): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(531): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(533): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(536): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(538): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(541): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(543): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(546): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(548): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(548): fatal error C1003: error count exceeds 100; stopping compilation
          trees.cpp
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C2039: 'ShapeContainer' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C2039: 'ShapeContainer' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(104): error C2061: syntax error : identifier 'ShapeContainer'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C2039: 'ovalShape7' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(105): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C2039: 'ovalShape6' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(106): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C2039: 'ovalShape5' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(107): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C2039: 'ovalShape4' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(108): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C2039: 'ovalShape3' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(109): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C2039: 'ovalShape2' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(110): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C2039: 'ovalShape1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C2039: 'OvalShape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(111): error C2061: syntax error : identifier 'OvalShape'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(263): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(355): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(355): error C2227: left of '->Location' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(356): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(356): error C2227: left of '->Margin' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(357): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(357): error C2227: left of '->Name' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2039: 'shapeContainer1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2227: left of '->Shapes' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2227: left of '->AddRange' must point to class/struct/union/generic type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C3083: 'PowerPacks': the symbol to the left of a '::' must be a type
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2039: 'Shape' : is not a member of 'Microsoft::VisualBasic'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2065: 'Shape' : undeclared identifier
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2059: syntax error : '>'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(358): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape6' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape5' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape4' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape3' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape2' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2039: 'ovalShape1' : is not a member of 'trees::BST_search'
+                 c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(16) : see declaration of 'trees::BST_search'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2143: syntax error : missing ',' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(359): error C2059: syntax error : ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(375): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(410): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(415): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(420): error C2143: syntax error : missing ',' before ')'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(433): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(438): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(461): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(462): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(484): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(485): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(507): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(508): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(529): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(531): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(533): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(536): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(538): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(541): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(543): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(546): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(548): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\ajais\desktop\vb_projects\btreesandheaps\trees\BST_search.h(548): fatal error C1003: error count exceeds 100; stopping compilation
          Generating Code...
-         All outputs are up-to-date.
-       CoreResGen:
-         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile BST_deletion.resx,Debug\trees.BST_deletion.resources
-         Processing resource file "BST_deletion.resx" into "Debug\trees.BST_deletion.resources".
-       ResourceCompile:
-         All outputs are up-to-date.
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lenovo\Documents\Visual C++ Videos Project\Videos_Tutorials\Debug\trees.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\trees.BST.resources /ASSEMBLYRESOURCE:Debug\trees.BST_deletion.resources /ASSEMBLYRESOURCE:Debug\trees.BST_insertion.resources /ASSEMBLYRESOURCE:Debug\trees.BST_intro.resources /ASSEMBLYRESOURCE:Debug\trees.BST_introduction.resources /ASSEMBLYRESOURCE:Debug\trees.BST_search.resources /MANIFEST /ManifestFile:"Debug\trees.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Lenovo\Documents\Visual C++ Videos Project\Videos_Tutorials\Debug\trees.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
-         Debug\AssemblyInfo.obj
-         Debug\BST_deletion.obj
-         Debug\BST_insertion.obj
-         Debug\BST_intro.obj
-         Debug\BST_introduction.obj
-         Debug\BST_search.obj
-         Debug\stdafx.obj
-         Debug\trees.obj
-         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-         trees.vcxproj -> C:\Users\Lenovo\Documents\Visual C++ Videos Project\Videos_Tutorials\Debug\trees.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Lenovo\Documents\Visual C++ Videos Project\Videos_Tutorials\Debug\trees.exe;#1" /manifest Debug\trees.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         Deleting file "Debug\trees.unsuccessfulbuild".
-         Touching "Debug\trees.lastbuildstate".
-     1>Done Building Project "C:\Users\Lenovo\Documents\Visual C++ Videos Project\Videos_Tutorials\trees\trees.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\ajais\Desktop\vb_projects\BtreesAndHeaps\trees\trees.vcxproj" (build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.50
+Time Elapsed 00:00:00.99

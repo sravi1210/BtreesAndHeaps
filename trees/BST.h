@@ -76,7 +76,7 @@ namespace trees {
 #pragma endregion
 	private: System::Void BST_mainpage_Load(System::Object^  sender, System::EventArgs^  e) {
 				 this->Controls->Clear();
-				 this->Controls->Add(gcnew BST_deletion);
+				 this->Controls->Add(gcnew BST_intro);
 			 }
 	};
 }
